@@ -1,4 +1,4 @@
 <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2019–2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p xo-source="company.json">&copy; <slot name="copyright_year">2019</slot>–<slot name="current_year">2023</slot>, <slot name="company">Company, Inc</slot> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
