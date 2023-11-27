@@ -3,5 +3,5 @@
 	<home href="#" title="Home"/>
 	<financieros title="Financieros"/>
 	<operativos title="Operativos"/>
-	<webscrapping/>
+	<webscrapping disabled=""/>
 </menu>

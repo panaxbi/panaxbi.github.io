@@ -8,8 +8,9 @@ xmlns="http://www.w3.org/1999/xhtml"
 	</xsl:template>
 
 	<xsl:template match="*" mode="menu-item">
+		<xsl:variable name="disabled"><xsl:if test="@disabled">disabled</xsl:if></xsl:variable>
 		<li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="#{name()}">
+			<a class="nav-link {$disabled}" aria-current="page" href="#{name()}">
 				<xsl:copy-of select="@href"/>
 				<xsl:apply-templates mode="menu-item-label" select="."/>
 			</a>
