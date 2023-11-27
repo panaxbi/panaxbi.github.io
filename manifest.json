@@ -1,0 +1,7 @@
+{
+  "sources": {
+    "#company": "company.json",
+    "#privacy": "privacy.html",
+    "#terms": "terms.html"
+  }
+}
