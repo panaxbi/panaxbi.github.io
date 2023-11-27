@@ -1,7 +1,7 @@
 <?xml-stylesheet type="text/xsl" href="menu.xslt" target="header @#menu"?>
 <menu>
-	<home href="#"/>
-	<financieros/>
-	<operativos/>
+	<home href="#" title="Home"/>
+	<financieros title="Financieros"/>
+	<operativos title="Operativos"/>
 	<webscrapping/>
 </menu>

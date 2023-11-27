@@ -20,15 +20,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 		<xsl:value-of select="name()"/>
 	</xsl:template>
 
-	<xsl:template match="financieros" mode="menu-item-label">
-		<xsl:text>Reportes Financieros</xsl:text>
-	</xsl:template>
-
-	<xsl:template match="operativos" mode="menu-item-label">
-		<xsl:text>Reportes Operativos</xsl:text>
-	</xsl:template>
-
-	<xsl:template match="home" mode="menu-item-label">
-		<xsl:text>Home</xsl:text>
+	<xsl:template match="*[@title]" mode="menu-item-label">
+		<xsl:value-of select="@title"/>
 	</xsl:template>
 </xsl:stylesheet>
