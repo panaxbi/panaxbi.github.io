@@ -1,0 +1,7 @@
+<?xml-stylesheet type="text/xsl" href="menu.xslt" target="header @#menu"?>
+<menu>
+	<home/>
+	<financieros/>
+	<operativos/>
+	<webscrapping/>
+</menu>

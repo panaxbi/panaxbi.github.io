@@ -2,6 +2,7 @@
   "sources": {
     "#company": "company.json",
     "#privacy": "privacy.html",
-    "#terms": "terms.html"
+    "#terms": "terms.html",
+    "#menu": "menu.xml"
   }
 }
