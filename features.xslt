@@ -1,7 +1,18 @@
 ﻿<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns:searchParams="http://panax.io/site/searchParams"
 xmlns="http://www.w3.org/1999/xhtml"
 >
+	<xsl:param name="searchParams:lang"></xsl:param>
+
 	<xsl:template match="*[data]">
+		<script>
+			<![CDATA[
+                xover.listener.on(['searchParams?lang','popstate'], function () {
+                    xo.sources["#features"].replaceChildren();
+					xo.sources["#features"].ready;
+                })
+            ]]>
+		</script>
 		<xsl:apply-templates mode="feature" select="data">
 			<xsl:sort data-type="number" select="comment"/>
 		</xsl:apply-templates>
