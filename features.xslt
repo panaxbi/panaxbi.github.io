@@ -1,7 +1,13 @@
 ﻿<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 xmlns="http://www.w3.org/1999/xhtml"
 >
-	<xsl:template match="data">
+	<xsl:template match="*[data]">
+		<xsl:apply-templates mode="feature" select="data">
+			<xsl:sort data-type="number" select="comment"/>
+		</xsl:apply-templates>
+	</xsl:template>
+
+	<xsl:template mode="feature" match="data">
 		<div class="row featurette">
 			<div>
 				<xsl:apply-templates mode="feature-header-class" select="."/>
@@ -10,7 +16,9 @@ xmlns="http://www.w3.org/1999/xhtml"
 						<xsl:value-of select="substring-after(@name,'.')"/>
 					</span>
 				</h2>
-				<p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+				<p class="lead">
+					<xsl:value-of select="value"/>
+				</p>
 			</div>
 			<div>
 				<xsl:apply-templates mode="feature-body-class" select="."/>
@@ -29,7 +37,16 @@ xmlns="http://www.w3.org/1999/xhtml"
 		<xsl:attribute name="class">col-md-7</xsl:attribute>
 	</xsl:template>
 
+	<xsl:template match="data[position() mod 2=0]" mode="feature-header-class">
+		<xsl:attribute name="class">col-md-7 order-md-2</xsl:attribute>
+	</xsl:template>
+
 	<xsl:template match="data" mode="feature-body-class">
-		<xsl:attribute name="class">col-md-5</xsl:attribute>
+		<xsl:attribute name="class">
+			<xsl:text>col-md-5 </xsl:text>
+			<xsl:if test="count(preceding-sibling::data) mod 2 = 1">
+				<xsl:text/>order-md-1<xsl:text/>
+			</xsl:if>
+		</xsl:attribute>
 	</xsl:template>
 </xsl:stylesheet>
