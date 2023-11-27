@@ -3,6 +3,7 @@
     "#company": "company.json",
     "#privacy": "privacy.html",
     "#terms": "terms.html",
-    "#menu": "menu.xml"
+    "#menu": "menu.xml",
+    "#features": [ "features.${xo.session.locale.split('-').shift()}.resx", "features.resx" ]
   }
 }
