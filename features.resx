@@ -117,13 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Por último, esto. Jaque mate." xml:space="preserve">
-    <value>Y sí, este es el último bloque de contenido representativo de marcador de posición. Nuevamente, en realidad no está destinado a ser leído, simplemente está aquí para brindarle una mejor visión de cómo se vería esto con contenido real. Tu contenido.</value>
-    <comment>3</comment>
-  </data>
   <data name="Oh sí, es muy bueno. Velo por ti mismo." xml:space="preserve">
     <value>¿Otra característica? Por supuesto. Más contenido de marcador de posición aquí para darle una idea de cómo funcionaría este diseño con contenido real del mundo real.</value>
     <comment>2</comment>
+  </data>
+  <data name="Por último, esto. Jaque mate." xml:space="preserve">
+    <value>Y sí, este es el último bloque de contenido representativo de marcador de posición. Nuevamente, en realidad no está destinado a ser leído, simplemente está aquí para brindarle una mejor visión de cómo se vería esto con contenido real. Tu contenido.</value>
+    <comment>3</comment>
   </data>
   <data name="Primera característica. Volará tu imaginación." xml:space="preserve">
     <value>Aquí hay un excelente contenido de marcador de posición para el primer reportaje. Imagínese una prosa emocionante aquí.</value>
