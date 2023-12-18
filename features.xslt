@@ -13,14 +13,18 @@ xmlns="http://www.w3.org/1999/xhtml"
                 })
             ]]>
 		</script>
-		<xsl:apply-templates mode="feature" select="data">
-			<xsl:sort data-type="number" select="comment"/>
-		</xsl:apply-templates>
+		<div class="container">
+			<xsl:apply-templates mode="feature" select="data">
+				<xsl:sort data-type="number" select="comment"/>
+			</xsl:apply-templates>
+		</div>
 	</xsl:template>
 
 	<xsl:template mode="feature" match="data">
-		<div class="row featurette">
-			<div>
+		<div class="row" style="position:relative">
+			<script>particlesJS('particles-js-feature-<xsl:value-of select="generate-id()"/>', config);</script>
+			<div id="particles-js-feature-{generate-id()}" class="particles"></div>
+			<div class="featurette">
 				<xsl:apply-templates mode="feature-header-class" select="."/>
 				<h2 class="featurette-heading fw-normal lh-1">
 					<xsl:value-of select="substring-before(@name,'.')"/>. <span class="text-body-secondary">
@@ -33,11 +37,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 			</div>
 			<div>
 				<xsl:apply-templates mode="feature-body-class" select="."/>
-				<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-					<title>Placeholder</title>
-					<rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-					<text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-				</svg>
+				<img src="/images/feature_0{position()}.jpg" style="height:500px; width: auto;"/>
 			</div>
 		</div>
 
@@ -48,7 +48,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 		<xsl:attribute name="class">col-md-7</xsl:attribute>
 	</xsl:template>
 
-	<xsl:template match="data[position() mod 2=0]" mode="feature-header-class">
+	<xsl:template match="data[comment mod 2=0]" mode="feature-header-class">
 		<xsl:attribute name="class">col-md-7 order-md-2</xsl:attribute>
 	</xsl:template>
 

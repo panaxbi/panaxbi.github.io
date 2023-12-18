@@ -4,6 +4,13 @@
     "#privacy": "privacy.html",
     "#terms": "terms.html",
     "#menu": "menu.xml",
-    "#features": [ "features.${xo.session.locale.split('-').shift()}.resx", "features.resx" ]
-  }
+    "#features": [ "features.resx", "features.${xo.session.locale.split('-').shift()}.resx" ],
+    "#headings": [ "headings.resx", "headings.${xo.session.locale.split('-').shift()}.resx" ],
+    "#gallery-titles": [ "gallery-titles.resx", "gallery-titles.${xo.session.locale.split('-').shift()}.resx" ],
+    "#gallery": {
+      "gallery.resx": "gallery",
+      "#gallery-titles": "titles"
+    }
+  },
+  "start": ["#gallery"]
 }
