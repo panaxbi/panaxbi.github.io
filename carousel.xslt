@@ -14,8 +14,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 			</script><style>
 				<![CDATA[
 			.carousel img {
-				top: -150px;
-				position: relative;
+				transform: translateY(-150px);
 			}
 			]]>
 			</style>
