@@ -23,7 +23,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 	<xsl:template mode="feature" match="data">
 		<div class="row" style="position:relative">
 			<script>particlesJS('particles-js-feature-<xsl:value-of select="generate-id()"/>', config);</script>
-			<div id="particles-js-feature-{generate-id()}" class="particles"></div>
+			<div id="particles-js-feature-{generate-id()}" class="particles" style="background-color:transparent"></div>
 			<div class="featurette">
 				<xsl:apply-templates mode="feature-header-class" select="."/>
 				<h2 class="featurette-heading fw-normal lh-1">

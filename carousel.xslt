@@ -14,7 +14,16 @@ xmlns="http://www.w3.org/1999/xhtml"
 			</script><style>
 				<![CDATA[
 			.carousel img {
-				transform: translateY(-150px);
+				    transform: translateY(-150px);
+					width: 100%;
+			}
+			
+			.carousel-item {
+				position: relative;
+			}
+			
+			.carousel-item > img, .carousel-item > svg {
+				position: absolute;
 			}
 			]]>
 			</style>
@@ -38,11 +47,17 @@ xmlns="http://www.w3.org/1999/xhtml"
 	</xsl:template>
 
 	<xsl:template match="*" mode="carousel-item">
-		<div class="carousel-item active">
-			<img src="/images/cover_0{position()}.jpg" style="width:100%"/>
+		<xsl:variable name="active">
+			<xsl:if test="position()=1">active</xsl:if>
+		</xsl:variable>
+		<div class="carousel-item {$active}">
+			<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+				<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+			</svg>
+			<img src="/images/cover_0{position()}.jpg" class="img-fluid"/>
 			<div class="container">
 				<div class="carousel-caption text-start">
-					<h1>Inteligencia de Negocios.</h1>
+					<h1>Inteligencia de Negocios</h1>
 					<p class="opacity-75">Libera el poder de la información.</p>
 					<!--<p>
 						<a class="btn btn-lg btn-primary" href="#">Sign up today</a>
