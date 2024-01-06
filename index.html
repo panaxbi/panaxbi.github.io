@@ -21,7 +21,7 @@
     <script src="js/app.js" defer></script>
 
     <!--<script language="JavaScript" src="https://cdn.jsdelivr.net/gh/panaxit/xover@latest/xo.min.js"></script>-->
-    <script language="JavaScript" src="xover/xo.js?v=20240105_0029"></script>
+    <script language="JavaScript" src="xover/xo.js?v=20240105_2008"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <style>
@@ -113,6 +113,19 @@
         .offcanvas-bottom {
             height: var(--offcanvas-height, var(--bs-offcanvas-height)) !important;
         }
+
+        .headings img {
+            height: 300px;
+            width: auto;
+            clip-path: circle(130px at center);
+        }
+
+        .headings .row div:has(>img) {
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     </style>
 
     <!-- Custom styles for this template -->
@@ -185,13 +198,13 @@
         <!-- Wrap the rest of the page in another container to center all the content. -->
         <div class="container marketing">
             <!-- Three columns of text below the carousel -->
-            <div class="row" xo-stylesheet="headings.xslt" xo-source="#headings">
+            <div class="row headings" xo-stylesheet="headings.xslt" xo-source="#headings">
             </div>
             <!-- START THE FEATURETTES -->
 
             <hr class="featurette-divider">
 
-            <div xo-stylesheet="features.xslt" xo-source="#features"></div>
+            <div class="features" xo-stylesheet="features.xslt" xo-source="#features"></div>
 
             <!-- /END THE FEATURETTES -->
 

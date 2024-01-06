@@ -17,7 +17,9 @@ xmlns="http://www.w3.org/1999/xhtml"
             ]]>
 		</script>
 		<div class="row" style="position:relative">
-			<script>particlesJS('particles-js-<xsl:value-of select="generate-id()"/>', config);</script>
+			<script>
+				particlesJS('particles-js-<xsl:value-of select="generate-id()"/>', config);
+			</script>
 			<div id="particles-js-{generate-id()}" class="particles"></div>
 			<xsl:apply-templates mode="heading" select="data">
 				<xsl:sort data-type="number" select="comment"/>
@@ -31,8 +33,12 @@ xmlns="http://www.w3.org/1999/xhtml"
 				<title>Placeholder</title>
 				<rect width="100%" height="100%" fill="var(- -bs-secondary-color)" />
 			</svg>-->
-			<img src="/images/{comment}" style="clip-path: circle(120px at center); width: 360px; height: auto;"/>
-			<h2 class="fw-normal"><xsl:value-of select="@name"/></h2>
+			<div>
+				<img class="circle" src="/images/{comment}"/>
+			</div>
+			<h2 class="fw-normal">
+				<xsl:value-of select="@name"/>
+			</h2>
 			<p>
 				<xsl:value-of select="value"/>
 			</p>
