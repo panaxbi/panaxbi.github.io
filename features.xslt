@@ -21,7 +21,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 	</xsl:template>
 
 	<xsl:template mode="feature" match="data">
-		<div class="row" style="position:relative">
+		<div id="feature-{position()}" class="row" style="position:relative">
 			<script>particlesJS('particles-js-feature-<xsl:value-of select="generate-id()"/>', config);</script>
 			<div id="particles-js-feature-{generate-id()}" class="particles" style="background-color:transparent"></div>
 			<div class="featurette">

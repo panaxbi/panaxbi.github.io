@@ -29,13 +29,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 
 	<xsl:template mode="heading" match="data">
 		<div class="col-lg-4">
-			<!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-				<title>Placeholder</title>
-				<rect width="100%" height="100%" fill="var(- -bs-secondary-color)" />
-			</svg>-->
-			<div>
-				<img class="circle" src="/images/{comment}"/>
-			</div>
+			<xsl:apply-templates mode="heading-image" select="."/>
 			<h2 class="fw-normal">
 				<xsl:value-of select="@name"/>
 			</h2>
@@ -43,8 +37,21 @@ xmlns="http://www.w3.org/1999/xhtml"
 				<xsl:value-of select="value"/>
 			</p>
 			<p>
-				<a class="btn btn-secondary" href="#">View details &raquo;</a>
+				<a class="btn btn-secondary" href="#feature-{position()}" scroll-restoration="manual">Ver más &raquo;</a>
 			</p>
+		</div>
+	</xsl:template>
+
+	<xsl:template match="data" mode="heading-image">
+		<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+			<title>Placeholder</title>
+			<rect width="100%" height="100%" fill="var(- -bs-secondary-color)" />
+		</svg>
+	</xsl:template>
+
+	<xsl:template match="data[comment]" mode="heading-image">
+		<div>
+			<img class="circle" src="/images/{comment}"/>
 		</div>
 	</xsl:template>
 
