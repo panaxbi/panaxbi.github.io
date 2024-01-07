@@ -37,7 +37,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 				<xsl:value-of select="value"/>
 			</p>
 			<p>
-				<a class="btn btn-secondary" href="#feature-{position()}" scroll-restoration="manual">Ver más &raquo;</a>
+				<a class="btn btn-secondary" href="#feature-{position()}-section" scroll-restoration="manual">Ver más &raquo;</a>
 			</p>
 		</div>
 	</xsl:template>

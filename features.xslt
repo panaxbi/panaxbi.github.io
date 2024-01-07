@@ -22,7 +22,10 @@ xmlns="http://www.w3.org/1999/xhtml"
 
 	<xsl:template mode="feature" match="data">
 		<div id="feature-{position()}" class="row" style="position:relative">
-			<script>particlesJS('particles-js-feature-<xsl:value-of select="generate-id()"/>', config);</script>
+			<hr id="feature-{position()}-section" class="featurette-divider"/>
+			<script>
+				particlesJS('particles-js-feature-<xsl:value-of select="generate-id()"/>', config);
+			</script>
 			<div id="particles-js-feature-{generate-id()}" class="particles" style="background-color:transparent"></div>
 			<div class="featurette">
 				<xsl:apply-templates mode="feature-header-class" select="."/>
@@ -40,8 +43,6 @@ xmlns="http://www.w3.org/1999/xhtml"
 				<img src="/images/feature_0{position()}.jpg" style="height:500px; width: auto;"/>
 			</div>
 		</div>
-
-		<hr class="featurette-divider"/>
 	</xsl:template>
 
 	<xsl:template match="data" mode="feature-header-class">
