@@ -2,7 +2,6 @@
 <html lang="en" data-bs-theme="auto">
 <head>
     <script src="../assets/js/color-modes.js"></script>
-    <meta name="scroll-restoration" content="manual">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -21,7 +20,7 @@
     <script src="js/app.js" defer></script>
 
     <!--<script language="JavaScript" src="https://cdn.jsdelivr.net/gh/panaxit/xover@latest/xo.min.js"></script>-->
-    <script language="JavaScript" src="xover/xo.js?v=20240106_1443"></script>
+    <script language="JavaScript" src="xover/xo.js?v=20240107_0924"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js" defer></script>
 
     <style>
@@ -157,6 +156,20 @@
         }
 
     </style>
+
+    <script defer>
+        xover.listener.on('scrollIntoView::.offcanvas', function () {
+            let offcanvas = bootstrap.Offcanvas.getOrCreateInstance(this);
+            offcanvas.show()
+        })
+
+        xover.listener.on('popstate', function () {
+            for (let offcanvas_item of [...window.document.querySelectorAll('.offcanvas.show')].filter(item => `#${item.id}` != location.hash)) {
+                let offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvas_item);
+                offcanvas.hide()
+            }
+        })
+    </script>
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
