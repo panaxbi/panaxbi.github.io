@@ -40,7 +40,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 			</div>
 			<div>
 				<xsl:apply-templates mode="feature-body-class" select="."/>
-				<img src="/images/feature_0{position()}.jpg" style="height:500px; width: auto;"/>
+				<img src="./images/feature_0{position()}.jpg" style="height:500px; width: auto;"/>
 			</div>
 		</div>
 	</xsl:template>

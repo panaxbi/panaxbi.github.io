@@ -51,7 +51,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 
 	<xsl:template match="data[comment]" mode="heading-image">
 		<div>
-			<img class="circle" src="/images/{comment}"/>
+			<img class="circle" src="./images/{comment}"/>
 		</div>
 	</xsl:template>
 
