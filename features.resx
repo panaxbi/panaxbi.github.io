@@ -117,16 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Acceso Omnisciente. Libertad de Acceso a tus Datos." xml:space="preserve">
-    <value>Rompemos las barreras geográficas y tecnológicas. Accede y controla tus datos desde cualquier lugar y dispositivo con una conexión a internet.</value>
-    <comment>3</comment>
-  </data>
   <data name="Consolidación Maestra. Conquista la Complejidad." xml:space="preserve">
     <value>Simplificamos la consolidación de datos de diversas fuentes para que puedas tomar decisiones informadas sin el caos.</value>
     <comment>1</comment>
   </data>
-  <data name="Visualización Maestra. Mira Más Allá de los Números." xml:space="preserve">
+  <data name="Sabiduría. Mira Más Allá de los Números." xml:space="preserve">
     <value>Transformamos datos en historias visuales. Descubre insights rápidos a través de nuestros reportes, dashboards y gráficas interactivas que te ayudarán a dar forma a tu éxito.</value>
     <comment>2</comment>
+  </data>
+  <data name="Ubicuidad. Libertad de Acceso a tus Datos." xml:space="preserve">
+    <value>Rompemos las barreras geográficas y tecnológicas. Accede y controla tus datos desde cualquier lugar y dispositivo con una conexión a internet.</value>
+    <comment>3</comment>
   </data>
 </root>
