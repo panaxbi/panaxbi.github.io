@@ -1,0 +1,783 @@
+﻿<?xml-stylesheet type="text/xsl" href="/topologia.xslt" target="@#shell main"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="593" viewBox="-992.2900505902193 -32 1792.5801011804385 1063" id="ccdiagram">
+  <filter id="grayscale">
+    <feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"></feColorMatrix>
+  </filter>
+  <defs>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Inconsolata:400');</style>
+  </defs>
+  <g>
+    <rect x="-992.2900505902193" y="-32" width="1792.5801011804385" height="1063" fill="none" id="interactionLayer"></rect>
+    <g style="pointer-events: none;">
+      <g>
+        <pattern id="gridPatternMinor" x="0" y="37" width="128" height="74" patternUnits="userSpaceOnUse">
+          <path d="M 0 0 L 128 74" stroke="#eeeeee" stroke-width="1"></path>
+          <path d="M 128 0 L 0 74" stroke="#eeeeee" stroke-width="1"></path>
+        </pattern>
+        <polygon points="0 0, 768 444, -192 999, -960 555" fill="url(#gridPatternMinor)"></polygon>
+      </g>
+      <polygon points="-960 555, -960 565, -192 1009, -192 999" stroke="#54626f" fill="#f9f9f9" stroke-linejoin="round" stroke-width="1"></polygon>
+      <polygon points="-192 1009, 768 454, 768 444, -192 999" stroke="#54626f" fill="#e2e2e2" stroke-linejoin="round" stroke-width="1"></polygon>
+    </g>
+    <g pointer-events="auto"></g>
+    <g style="pointer-events: none;">
+      <g>
+        <pattern id="gridPatternMajor" x="0" y="37" width="128" height="74" patternUnits="userSpaceOnUse">
+          <path d="M 64 0 L 128 37 64 74 0 37 z" stroke="#54626f" stroke-width="1" fill="none"></path>
+        </pattern>
+        <polygon points="0 0, 768 444, -192 999, -960 555" fill="url(#gridPatternMajor)"></polygon>
+      </g>
+    </g>
+    <g pointer-events="auto"></g>
+    <g pointer-events="auto"></g>
+    <g></g>
+    <g pointer-events="auto"></g>
+    <g></g>
+    <g pointer-events="auto"></g>
+    <g pointer-events="auto"></g>
+    <g pointer-events="none"></g>
+    <g pointer-events="auto">
+      <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4-1bf7b589-4bff-41a4-b3c7-dfc7796c8d3e">
+        <g cursor="cell">
+          <line x1="15" y1="453" x2="-134" y2="366" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="15" y1="453" x2="-134" y2="366" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-144 361, -135 376, -132 368, -118 366, -144 361" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="218a5eb7-51b6-4393-a9d2-b8f2a0df4792-d340692f-4772-4aa5-bde7-e22b1eb7cacb">
+        <g cursor="cell">
+          <line x1="-513" y1="592" x2="-723" y2="575" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-513" y1="592" x2="-723" y2="575" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-736 574, -713 582, -719 575, -710 569, -736 574" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="723da9c1-b52a-4c62-83fa-b8f816bee67e-1d1ee734-2b3c-4034-9886-25feab574708">
+        <g cursor="cell">
+          <line x1="-241" y1="915" x2="-547" y2="738" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-241" y1="915" x2="-547" y2="738" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-232 921, -241 906, -244 913, -257 915, -232 921" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="4c5fb0ad-9f6a-4dcd-9593-a35ea3b1c384-e1659f90-d776-491c-82e9-1e3d66d708a6">
+        <g cursor="cell">
+          <line x1="-36" y1="708" x2="96" y2="666" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-36" y1="708" x2="96" y2="666" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-48 712, -21 711, -33 707, -32 700, -48 712" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="4c5fb0ad-9f6a-4dcd-9593-a35ea3b1c384-632e85b7-ba8c-48c0-9f06-b38186adc3f2">
+        <g cursor="cell">
+          <line x1="-16" y1="657" x2="254" y2="518" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-16" y1="657" x2="254" y2="518" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="264 513, 238 518, 251 520, 254 528, 264 513" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line x1="-420" y1="645" x2="-352" y2="685" stroke="red" stroke-width="26" opacity="0"></line>
+          <line x1="-420" y1="645" x2="-352" y2="685" stroke="#693cc5" stroke-width="20" stroke-linecap="round"></line>
+          <polygon points="-451 627, -421 675, -411 651, -368 645, -451 627" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+          <polygon points="-321 703, -351 655, -361 679, -404 685, -321 703" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line x1="407" y1="359" x2="389" y2="420" stroke="red" stroke-width="26" opacity="0"></line>
+          <line x1="407" y1="359" x2="389" y2="420" stroke="#693cc5" stroke-width="20" stroke-linecap="round"></line>
+          <polygon points="415 334, 364 376, 405 366, 438 383, 415 334" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+          <polygon points="381 445, 432 404, 391 413, 358 396, 381 445" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4-f4b25c35-547b-4395-8e3c-8d9030f3f664">
+        <g cursor="cell">
+          <line x1="15" y1="453" x2="-198" y2="329" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="15" y1="453" x2="-198" y2="329" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-208 324, -199 339, -196 331, -182 329, -208 324" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="fc9d7bc4-6c2a-42c0-80fb-9ac2126781e9-4c5fb0ad-9f6a-4dcd-9593-a35ea3b1c384">
+        <g cursor="cell">
+          <line x1="-121" y1="808" x2="-53" y2="719" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-121" y1="808" x2="-53" y2="719" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-126 815, -106 805, -119 806, -127 799, -126 815" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-48 712, -68 723, -55 722, -47 728, -48 712" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="044f79e6-7d58-4a6e-834b-bf23ffca13f3-7a98349e-d4c4-43f0-8913-2c1a5893939c">
+        <g cursor="cell">
+          <line x1="488" y1="356" x2="613" y2="411" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="488" y1="356" x2="613" y2="411" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="624 416, 611 402, 610 410, 597 413, 624 416" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line x1="159" y1="462" x2="231" y2="497" stroke="red" stroke-width="26" opacity="0"></line>
+          <line x1="159" y1="462" x2="231" y2="497" stroke="#693cc5" stroke-width="20" stroke-linecap="round"></line>
+          <polygon points="125 445, 163 492, 169 467, 211 459, 125 445" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+          <polygon points="264 513, 227 467, 220 492, 179 500, 264 513" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="e1659f90-d776-491c-82e9-1e3d66d708a6-632e85b7-ba8c-48c0-9f06-b38186adc3f2">
+        <g cursor="cell">
+          <line x1="224" y1="666" x2="262" y2="521" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="224" y1="666" x2="262" y2="521" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="264 513, 249 526, 262 523, 272 528, 264 513" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4-88c0fa13-2f13-44ac-aa6b-ca7d75a21696">
+        <g cursor="cell">
+          <line x1="15" y1="453" x2="-70" y2="403" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="15" y1="453" x2="-70" y2="403" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-80 398, -71 413, -68 405, -54 403, -80 398" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4-0c5d0817-9979-4c79-9e4d-fa54dc83c6fc">
+        <g cursor="cell">
+          <line x1="15" y1="453" x2="-6" y2="440" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="15" y1="453" x2="-6" y2="440" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-16 435, -7 450, -4 442, 10 440, -16 435" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4-58c480cf-54cb-4903-85a8-58c08a015918">
+        <g cursor="cell">
+          <line x1="15" y1="453" x2="-326" y2="255" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="15" y1="453" x2="-326" y2="255" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-336 250, -327 265, -324 257, -310 255, -336 250" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="1d1ee734-2b3c-4034-9886-25feab574708-d340692f-4772-4aa5-bde7-e22b1eb7cacb">
+        <g cursor="cell">
+          <line x1="-615" y1="696" x2="-729" y2="580" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-615" y1="696" x2="-729" y2="580" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-609 703, -611 687, -617 694, -631 694, -609 703" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-736 574, -734 589, -727 582, -714 583, -736 574" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="7e5dee5e-7c93-442d-b384-e9f33fc289cd-e1659f90-d776-491c-82e9-1e3d66d708a6">
+        <g cursor="cell">
+          <line x1="367" y1="583" x2="234" y2="660" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="367" y1="583" x2="234" y2="660" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="224 666, 250 661, 236 659, 233 651, 224 666" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g>
+        <g>
+          <line x1="255" y1="246" x2="269" y2="427" stroke="red" stroke-width="26" opacity="0"></line>
+          <line x1="255" y1="246" x2="269" y2="427" stroke="#693cc5" stroke-width="20" stroke-linecap="round"></line>
+          <polygon points="253 220, 219 267, 255 253, 294 265, 253 220" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+          <polygon points="271 453, 305 406, 269 420, 230 408, 271 453" stroke-linejoin="round" fill="#693cc5" stroke="#693cc5" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4-290f74cf-552b-4ab3-9cac-2b00c373001b">
+        <g cursor="cell">
+          <line x1="15" y1="453" x2="-262" y2="292" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="15" y1="453" x2="-262" y2="292" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-272 287, -263 302, -260 294, -246 292, -272 287" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="4c5fb0ad-9f6a-4dcd-9593-a35ea3b1c384-1e36940b-25f1-40a3-bf0e-c4ab1ae8104d">
+        <g cursor="cell">
+          <line x1="-112" y1="712" x2="-198" y2="697" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-112" y1="712" x2="-198" y2="697" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-211 695, -190 706, -194 698, -184 693, -211 695" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="723da9c1-b52a-4c62-83fa-b8f816bee67e-fc9d7bc4-6c2a-42c0-80fb-9ac2126781e9">
+        <g cursor="cell">
+          <line x1="-163" y1="925" x2="-89" y2="867" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="-163" y1="925" x2="-89" y2="867" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="-172 932, -148 924, -161 923, -166 916, -172 932" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+          <polygon points="-81 861, -105 868, -92 869, -87 876, -81 861" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+      <g id="e27b5b27-609e-426b-9ac7-ad926c39b9c8-d1196373-161c-4ec3-bdd2-5aeaf66e895d">
+        <g cursor="cell">
+          <line x1="191" y1="185" x2="154" y2="163" stroke="red" stroke-width="8" opacity="0"></line>
+          <line x1="191" y1="185" x2="154" y2="163" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+          <polygon points="144 157, 153 172, 156 164, 170 163, 144 157" stroke-linejoin="round" fill="#000000" stroke="#000000" stroke-width="1"></polygon>
+        </g>
+      </g>
+    </g>
+    <g pointer-events="auto">
+      <g opacity="1">
+        <g id="7a98349e-d4c4-43f0-8913-2c1a5893939c" transform="translate(0 0)">
+          <svg x="624" y="352" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="6c7a1890-8174-475d-a32e-91e965539726" transform="translate(0 0)">
+          <svg x="-80" y="-36" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="178e538e-34e9-4be7-935c-cafc6fc8bb75" transform="translate(0 0)">
+          <svg x="-16" y="1" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="d1196373-161c-4ec3-bdd2-5aeaf66e895d" transform="translate(0 0)">
+          <svg x="48" y="38" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="e27b5b27-609e-426b-9ac7-ad926c39b9c8" transform="translate(0 0)">
+          <svg x="178" y="141" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M22.429 6.02v14.217l-7.873-4.317V1.474z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m32.279 2.228-9.85 3.791v14.218l9.85-8.53z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m22.429 6.02-7.873-4.546L28.996.332l3.283 1.896z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m32.279 11.707-9.85 8.53-7.873-4.317V1.474L29.152.27l3.127 1.806z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m10.115 3.65 8.208 4.74L3.496 18.787.265 16.921z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".268"></path>
+            <path d="M18.324 8.39v14.219L3.547 28.296l-.051-9.51z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M3.496 18.787.265 16.921v9.478l3.282 1.897z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m10.115 3.65 8.208 4.74v14.218L3.547 28.296.265 26.399v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g fill="#4286c5" stroke="#4286c5">
+              <path class="cls-1" d="M35.31 38.19H14.69a1 1 0 0 1-1-1V21.25a1 1 0 0 1 1-1h20.62a1 1 0 0 1 1 1v15.94a1 1 0 0 1-1 1zm-19.62-2h18.62V22.26H15.69Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M24 29.27h2v5.04h-2zm7.61-8.22h-2v-4.46a5 5 0 0 0-1.35-3.42 4.45 4.45 0 0 0-3.26-1.4 4.71 4.71 0 0 0-4.63 4.76v4.51h-2v-4.51A6.7 6.7 0 0 1 25 9.77a6.45 6.45 0 0 1 4.68 2 6.9 6.9 0 0 1 1.9 4.8z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M25 48.5A23.5 23.5 0 1 1 48.5 25 23.52 23.52 0 0 1 25 48.5Zm0-45A21.5 21.5 0 1 0 46.5 25 21.52 21.52 0 0 0 25 3.5Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M25 31.16a3.35 3.35 0 1 1 3.34-3.35A3.35 3.35 0 0 1 25 31.16Zm0-4.69a1.35 1.35 0 1 0 1.34 1.34A1.34 1.34 0 0 0 25 26.47Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="044f79e6-7d58-4a6e-834b-bf23ffca13f3" transform="translate(0 0)">
+          <svg x="370" y="252" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M10.115 6.02v14.218l7.873-4.317V1.475z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m.265 2.228 9.85 3.792v14.218l-9.85-8.53z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m10.115 6.02 7.873-4.545L3.548.332.265 2.228z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m.265 11.707 9.85 8.531 7.873-4.317V1.475L3.392.271.265 2.077z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m22.429 3.65-8.208 4.74 14.827 10.397 3.231-1.865z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".268"></path>
+            <path d="M14.22 8.391v14.218l14.777 5.687.051-9.509z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m29.048 18.787 3.231-1.865V26.4l-3.282 1.897z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m22.429 3.65-8.208 4.74v14.22l14.776 5.686 3.282-1.896v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g fill="#4286c5" stroke="#4286c5">
+              <path class="cls-1" d="M35.31 38.19H14.69a1 1 0 0 1-1-1V21.25a1 1 0 0 1 1-1h20.62a1 1 0 0 1 1 1v15.94a1 1 0 0 1-1 1zm-19.62-2h18.62V22.26H15.69Z" transform="matrix(.15911 .09186 0 .18372 17.66 13.039)"></path>
+              <path class="cls-1" d="M24 29.27h2v5.04h-2zm7.61-8.22h-2v-4.46a5 5 0 0 0-1.35-3.42 4.45 4.45 0 0 0-3.26-1.4 4.71 4.71 0 0 0-4.63 4.76v4.51h-2v-4.51A6.7 6.7 0 0 1 25 9.77a6.45 6.45 0 0 1 4.68 2 6.9 6.9 0 0 1 1.9 4.8z" transform="matrix(.15911 .09186 0 .18372 17.66 13.039)"></path>
+              <path class="cls-1" d="M25 48.5A23.5 23.5 0 1 1 48.5 25 23.52 23.52 0 0 1 25 48.5Zm0-45A21.5 21.5 0 1 0 46.5 25 21.52 21.52 0 0 0 25 3.5Z" transform="matrix(.15911 .09186 0 .18372 17.66 13.039)"></path>
+              <path class="cls-1" d="M25 31.16a3.35 3.35 0 1 1 3.34-3.35A3.35 3.35 0 0 1 25 31.16Zm0-4.69a1.35 1.35 0 1 0 1.34 1.34A1.34 1.34 0 0 0 25 26.47Z" transform="matrix(.15911 .09186 0 .18372 17.66 13.039)"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="632e85b7-ba8c-48c0-9f06-b38186adc3f2" transform="translate(0 0)">
+          <svg x="258" y="409" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M22.429 6.02v14.217l-7.873-4.317V1.474z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m32.279 2.228-9.85 3.791v14.218l9.85-8.53z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m22.429 6.02-7.873-4.546L28.996.332l3.283 1.896z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m32.279 11.707-9.85 8.53-7.873-4.317V1.474L29.152.27l3.127 1.806z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m10.115 3.65 8.208 4.74L3.496 18.787.265 16.921z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".268"></path>
+            <path d="M18.324 8.39v14.219L3.547 28.296l-.051-9.51z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M3.496 18.787.265 16.921v9.478l3.282 1.897z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m10.115 3.65 8.208 4.74v14.218L3.547 28.296.265 26.399v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g fill="#4286c5" stroke="#4286c5" stroke-width=".529">
+              <path class="cls-1" d="M-42.777 181.811a11.906 11.906 0 1 1 11.906-11.906 11.916 11.916 0 0 1-11.906 11.906zm0-22.799a10.893 10.893 0 1 0 10.893 10.893 10.903 10.903 0 0 0-10.893-10.893z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="m-40.75 163.136-2.027-2.026-2.027 2.026-.714-.714 2.371-2.376a.507.507 0 0 1 .72 0l2.37 2.376z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="M-43.284 160.785h1.013v18.239h-1.013z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="M-42.777 179.911a.507.507 0 0 1-.36-.146l-2.37-2.377.703-.714 2.027 2.027 2.027-2.027.714.714-2.371 2.377a.507.507 0 0 1-.37.146zm7.483-7.275-.714-.704 2.026-2.027-2.026-2.026.714-.715 2.376 2.371a.507.507 0 0 1 0 .72z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="M-51.897 169.399h18.239v1.013h-18.239z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="m-50.26 172.636-2.376-2.371a.507.507 0 0 1 0-.72l2.376-2.37.72.704-2.027 2.026 2.026 2.027z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="7e5dee5e-7c93-442d-b384-e9f33fc289cd" transform="translate(0 0)">
+          <svg x="322" y="502" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M10.115 6.02v14.218l7.873-4.317V1.475z" fill="#090909" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m.265 2.228 9.85 3.792v14.218l-9.85-8.53z" fill="#232323" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m10.115 6.02 7.873-4.545L3.548.332.265 2.228z" fill="#3c3c3c" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m.265 11.707 9.85 8.531 7.873-4.317V1.475L3.392.271.265 2.077z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m22.429 3.65-8.208 4.74 14.827 10.397 3.231-1.865z" fill="#3c3c3c" fill-rule="evenodd" stroke="#000" stroke-width=".268"></path>
+            <path d="M14.22 8.391v14.218l14.777 5.687.051-9.509z" fill="#232323" fill-rule="evenodd" stroke="#000" stroke-width=".265"></path>
+            <path d="m29.048 18.787 3.231-1.865V26.4l-3.282 1.897z" fill="#090909" fill-rule="evenodd" stroke="#000" stroke-width=".265"></path>
+            <path d="m22.429 3.65-8.208 4.74v14.22l14.776 5.686 3.282-1.896v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="M21.09 20.431q.164.374.048.64-.115.264-.44.264-.326 0-.671-.265-.346-.265-.509-.64-.162-.374-.047-.638.115-.265.44-.265.326 0 .672.265.345.264.508.639zm1.573-1.808q.08.183.022.317-.059.134-.218.135-.16 0-.335-.135-.175-.134-.255-.318-.081-.187-.024-.32.058-.132.22-.132.163 0 .336.133.173.132.254.32zm1.573 3.616q.08.184.021.318-.058.134-.218.134t-.335-.134q-.175-.134-.255-.318-.081-.187-.023-.32.057-.132.22-.132t.336.133q.172.132.254.32zm-1.826-1.487-.284-.653q-.016-.036-.052-.069-.036-.033-.065-.037l-.513-.085q-.087-.124-.215-.268.03-.17.1-.407.006-.035-.01-.07-.017-.043-.05-.067-.116-.106-.39-.316-.274-.21-.333-.21-.034 0-.054.024l-.215.318q-.143-.067-.284-.11-.2-.381-.309-.547-.058-.085-.129-.085h-.57q-.035 0-.05.026-.017.027-.005.062l.165.54q-.09.036-.183.11l-.5-.314q-.031-.025-.071-.025-.034 0-.052.029-.238.47-.197.565.014.031.05.067.053.05.208.187t.238.215q-.003.156.018.29l-.43.085q-.029.004-.037.033-.008.03.008.069l.284.654q.015.035.051.068.036.034.066.038l.513.084q.087.124.214.269-.03.17-.1.406-.004.039.01.07.018.043.052.071.114.106.388.315.275.208.334.208.033 0 .053-.025l.215-.317q.132.063.286.113.2.381.307.543.059.085.13.085h.57q.034 0 .05-.026.016-.027.004-.062l-.164-.54q.089-.036.183-.11l.499.314q.035.025.072.025.034 0 .052-.029.238-.47.197-.565-.014-.031-.051-.067l-.212-.19q-.15-.134-.23-.212-.003-.17-.022-.29l.431-.081q.028-.007.037-.037.008-.03-.008-.069zm1.147-1.882-.215-.495q-.024-.056-.505-.11-.078-.095-.172-.183-.017-.4-.055-.487-.006-.014-.023-.025-.484-.25-.49-.25-.025 0-.07.165-.044.166-.055.24-.064-.007-.095-.007-.03 0-.09.007-.074-.074-.263-.24-.19-.166-.214-.166-.006 0-.271.251-.008.01-.002.025.038.088.368.487-.017.088-.012.184-.435.053-.41.11l.215.494q.024.056.505.11.084.102.172.183.017.4.055.487.006.014.023.025l.138.07.234.12q.11.057.117.057.024 0 .07-.164.045-.164.056-.238.064.007.095.007.03 0 .09-.007.265.25.454.395l.021.007q.012 0 .273-.247.008-.01.002-.025-.038-.088-.368-.487.017-.081.012-.184.435-.053.41-.11zm1.573 3.616-.215-.494q-.025-.057-.506-.11-.078-.095-.172-.183-.017-.4-.055-.488-.006-.014-.023-.024-.484-.251-.49-.251-.024 0-.069.166-.044.166-.055.24-.065-.007-.095-.007-.031 0-.09.007-.075-.074-.264-.24-.189-.166-.213-.166-.006 0-.272.25-.008.011-.002.025.038.089.369.488-.017.088-.013.183-.434.053-.41.11l.215.494q.025.057.506.11.084.103.172.184.017.399.055.487.006.014.023.025l.138.07.234.12q.11.057.116.057.025 0 .07-.164.045-.164.056-.238.065.007.096.007.03 0 .089-.007.265.25.454.395l.022.007q.012 0 .273-.247.008-.01.002-.025-.038-.088-.368-.487.017-.081.012-.184.435-.053.41-.11z" fill="#f4b934"></path>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="58c480cf-54cb-4903-85a8-58c08a015918" transform="translate(0 0)">
+          <svg x="-432" y="130" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="290f74cf-552b-4ab3-9cac-2b00c373001b" transform="translate(0 0)">
+          <svg x="-368" y="167" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="f4b25c35-547b-4395-8e3c-8d9030f3f664" transform="translate(0 0)">
+          <svg x="-304" y="204" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="1bf7b589-4bff-41a4-b3c7-dfc7796c8d3e" transform="translate(0 0)">
+          <svg x="-240" y="241" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="88c0fa13-2f13-44ac-aa6b-ca7d75a21696" transform="translate(0 0)">
+          <svg x="-176" y="278" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="0c5d0817-9979-4c79-9e4d-fa54dc83c6fc" transform="translate(0 0)">
+          <svg x="-112" y="315" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="0d483b82-9d86-499b-b187-1381ff1bd0c4" transform="translate(0 0)">
+          <svg x="2" y="409" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M22.429 6.02v14.217l-7.873-4.317V1.474z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m32.279 2.228-9.85 3.791v14.218l9.85-8.53z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m22.429 6.02-7.873-4.546L28.996.332l3.283 1.896z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m32.279 11.707-9.85 8.53-7.873-4.317V1.474L29.152.27l3.127 1.806z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m10.115 3.65 8.208 4.74L3.496 18.787.265 16.921z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".268"></path>
+            <path d="M18.324 8.39v14.219L3.547 28.296l-.051-9.51z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M3.496 18.787.265 16.921v9.478l3.282 1.897z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m10.115 3.65 8.208 4.74v14.218L3.547 28.296.265 26.399v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g fill="#4286c5" stroke="#4286c5">
+              <path class="cls-1" d="M35.31 38.19H14.69a1 1 0 0 1-1-1V21.25a1 1 0 0 1 1-1h20.62a1 1 0 0 1 1 1v15.94a1 1 0 0 1-1 1zm-19.62-2h18.62V22.26H15.69Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M24 29.27h2v5.04h-2zm7.61-8.22h-2v-4.46a5 5 0 0 0-1.35-3.42 4.45 4.45 0 0 0-3.26-1.4 4.71 4.71 0 0 0-4.63 4.76v4.51h-2v-4.51A6.7 6.7 0 0 1 25 9.77a6.45 6.45 0 0 1 4.68 2 6.9 6.9 0 0 1 1.9 4.8z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M25 48.5A23.5 23.5 0 1 1 48.5 25 23.52 23.52 0 0 1 25 48.5Zm0-45A21.5 21.5 0 1 0 46.5 25 21.52 21.52 0 0 0 25 3.5Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M25 31.16a3.35 3.35 0 1 1 3.34-3.35A3.35 3.35 0 0 1 25 31.16Zm0-4.69a1.35 1.35 0 1 0 1.34 1.34A1.34 1.34 0 0 0 25 26.47Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="e1659f90-d776-491c-82e9-1e3d66d708a6" transform="translate(0 0)">
+          <svg x="96" y="602" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="4c5fb0ad-9f6a-4dcd-9593-a35ea3b1c384" transform="translate(0 0)">
+          <svg x="-144" y="593" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="218a5eb7-51b6-4393-a9d2-b8f2a0df4792" transform="translate(0 0)">
+          <svg x="-526" y="548" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M22.429 6.02v14.217l-7.873-4.317V1.474z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m32.279 2.228-9.85 3.791v14.218l9.85-8.53z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m22.429 6.02-7.873-4.546L28.996.332l3.283 1.896z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m32.279 11.707-9.85 8.53-7.873-4.317V1.474L29.152.27l3.127 1.806z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m10.115 3.65 8.208 4.74L3.496 18.787.265 16.921z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".268"></path>
+            <path d="M18.324 8.39v14.219L3.547 28.296l-.051-9.51z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M3.496 18.787.265 16.921v9.478l3.282 1.897z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m10.115 3.65 8.208 4.74v14.218L3.547 28.296.265 26.399v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g fill="#4286c5" stroke="#4286c5">
+              <path class="cls-1" d="M35.31 38.19H14.69a1 1 0 0 1-1-1V21.25a1 1 0 0 1 1-1h20.62a1 1 0 0 1 1 1v15.94a1 1 0 0 1-1 1zm-19.62-2h18.62V22.26H15.69Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M24 29.27h2v5.04h-2zm7.61-8.22h-2v-4.46a5 5 0 0 0-1.35-3.42 4.45 4.45 0 0 0-3.26-1.4 4.71 4.71 0 0 0-4.63 4.76v4.51h-2v-4.51A6.7 6.7 0 0 1 25 9.77a6.45 6.45 0 0 1 4.68 2 6.9 6.9 0 0 1 1.9 4.8z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M25 48.5A23.5 23.5 0 1 1 48.5 25 23.52 23.52 0 0 1 25 48.5Zm0-45A21.5 21.5 0 1 0 46.5 25 21.52 21.52 0 0 0 25 3.5Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+              <path class="cls-1" d="M25 31.16a3.35 3.35 0 1 1 3.34-3.35A3.35 3.35 0 0 1 25 31.16Zm0-4.69a1.35 1.35 0 1 0 1.34 1.34A1.34 1.34 0 0 0 25 26.47Z" transform="matrix(.15903 -.09182 0 .18364 23.381 7.872)"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="1e36940b-25f1-40a3-bf0e-c4ab1ae8104d" transform="translate(0 0)">
+          <svg x="-334" y="659" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M22.429 6.02v14.217l-7.873-4.317V1.474z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m32.279 2.228-9.85 3.791v14.218l9.85-8.53z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m22.429 6.02-7.873-4.546L28.996.332l3.283 1.896z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m32.279 11.707-9.85 8.53-7.873-4.317V1.474L29.152.27l3.127 1.806z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m10.115 3.65 8.208 4.74L3.496 18.787.265 16.921z" fill="#ececed" fill-rule="evenodd" stroke="#83838a" stroke-width=".268"></path>
+            <path d="M18.324 8.39v14.219L3.547 28.296l-.051-9.51z" fill="#b8b8bb" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="M3.496 18.787.265 16.921v9.478l3.282 1.897z" fill="#d2d2d4" fill-rule="evenodd" stroke="#83838a" stroke-width=".265"></path>
+            <path d="m10.115 3.65 8.208 4.74v14.218L3.547 28.296.265 26.399v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <g fill="#4286c5" stroke="#4286c5" stroke-width=".529">
+              <path class="cls-1" d="M-42.777 181.811a11.906 11.906 0 1 1 11.906-11.906 11.916 11.916 0 0 1-11.906 11.906zm0-22.799a10.893 10.893 0 1 0 10.893 10.893 10.903 10.903 0 0 0-10.893-10.893z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="m-40.75 163.136-2.027-2.026-2.027 2.026-.714-.714 2.371-2.376a.507.507 0 0 1 .72 0l2.37 2.376z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="M-43.284 160.785h1.013v18.239h-1.013z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="M-42.777 179.911a.507.507 0 0 1-.36-.146l-2.37-2.377.703-.714 2.027 2.027 2.027-2.027.714.714-2.371 2.377a.507.507 0 0 1-.37.146zm7.483-7.275-.714-.704 2.026-2.027-2.026-2.026.714-.715 2.376 2.371a.507.507 0 0 1 0 .72z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="M-51.897 169.399h18.239v1.013h-18.239z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+              <path class="cls-1" d="m-50.26 172.636-2.376-2.371a.507.507 0 0 1 0-.72l2.376-2.37.72.704-2.027 2.026 2.026 2.027z" transform="matrix(.3136 -.18106 0 .36212 40.772 -59.104)"></path>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="fc9d7bc4-6c2a-42c0-80fb-9ac2126781e9" transform="translate(0 0)">
+          <svg x="-126" y="779" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M10.115 6.02v14.218l7.873-4.317V1.475z" fill="#090909" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m.265 2.228 9.85 3.792v14.218l-9.85-8.53z" fill="#232323" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m10.115 6.02 7.873-4.545L3.548.332.265 2.228z" fill="#3c3c3c" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m.265 11.707 9.85 8.531 7.873-4.317V1.475L3.392.271.265 2.077z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m22.429 3.65-8.208 4.74 14.827 10.397 3.231-1.865z" fill="#3c3c3c" fill-rule="evenodd" stroke="#000" stroke-width=".268"></path>
+            <path d="M14.22 8.391v14.218l14.777 5.687.051-9.509z" fill="#232323" fill-rule="evenodd" stroke="#000" stroke-width=".265"></path>
+            <path d="m29.048 18.787 3.231-1.865V26.4l-3.282 1.897z" fill="#090909" fill-rule="evenodd" stroke="#000" stroke-width=".265"></path>
+            <path d="m22.429 3.65-8.208 4.74v14.22l14.776 5.686 3.282-1.896v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="M21.09 20.431q.164.374.048.64-.115.264-.44.264-.326 0-.671-.265-.346-.265-.509-.64-.162-.374-.047-.638.115-.265.44-.265.326 0 .672.265.345.264.508.639zm1.573-1.808q.08.183.022.317-.059.134-.218.135-.16 0-.335-.135-.175-.134-.255-.318-.081-.187-.024-.32.058-.132.22-.132.163 0 .336.133.173.132.254.32zm1.573 3.616q.08.184.021.318-.058.134-.218.134t-.335-.134q-.175-.134-.255-.318-.081-.187-.023-.32.057-.132.22-.132t.336.133q.172.132.254.32zm-1.826-1.487-.284-.653q-.016-.036-.052-.069-.036-.033-.065-.037l-.513-.085q-.087-.124-.215-.268.03-.17.1-.407.006-.035-.01-.07-.017-.043-.05-.067-.116-.106-.39-.316-.274-.21-.333-.21-.034 0-.054.024l-.215.318q-.143-.067-.284-.11-.2-.381-.309-.547-.058-.085-.129-.085h-.57q-.035 0-.05.026-.017.027-.005.062l.165.54q-.09.036-.183.11l-.5-.314q-.031-.025-.071-.025-.034 0-.052.029-.238.47-.197.565.014.031.05.067.053.05.208.187t.238.215q-.003.156.018.29l-.43.085q-.029.004-.037.033-.008.03.008.069l.284.654q.015.035.051.068.036.034.066.038l.513.084q.087.124.214.269-.03.17-.1.406-.004.039.01.07.018.043.052.071.114.106.388.315.275.208.334.208.033 0 .053-.025l.215-.317q.132.063.286.113.2.381.307.543.059.085.13.085h.57q.034 0 .05-.026.016-.027.004-.062l-.164-.54q.089-.036.183-.11l.499.314q.035.025.072.025.034 0 .052-.029.238-.47.197-.565-.014-.031-.051-.067l-.212-.19q-.15-.134-.23-.212-.003-.17-.022-.29l.431-.081q.028-.007.037-.037.008-.03-.008-.069zm1.147-1.882-.215-.495q-.024-.056-.505-.11-.078-.095-.172-.183-.017-.4-.055-.487-.006-.014-.023-.025-.484-.25-.49-.25-.025 0-.07.165-.044.166-.055.24-.064-.007-.095-.007-.03 0-.09.007-.074-.074-.263-.24-.19-.166-.214-.166-.006 0-.271.251-.008.01-.002.025.038.088.368.487-.017.088-.012.184-.435.053-.41.11l.215.494q.024.056.505.11.084.102.172.183.017.4.055.487.006.014.023.025l.138.07.234.12q.11.057.117.057.024 0 .07-.164.045-.164.056-.238.064.007.095.007.03 0 .09-.007.265.25.454.395l.021.007q.012 0 .273-.247.008-.01.002-.025-.038-.088-.368-.487.017-.081.012-.184.435-.053.41-.11zm1.573 3.616-.215-.494q-.025-.057-.506-.11-.078-.095-.172-.183-.017-.4-.055-.488-.006-.014-.023-.024-.484-.251-.49-.251-.024 0-.069.166-.044.166-.055.24-.065-.007-.095-.007-.031 0-.09.007-.075-.074-.264-.24-.189-.166-.213-.166-.006 0-.272.25-.008.011-.002.025.038.089.369.488-.017.088-.013.183-.434.053-.41.11l.215.494q.025.057.506.11.084.103.172.184.017.399.055.487.006.014.023.025l.138.07.234.12q.11.057.116.057.025 0 .07-.164.045-.164.056-.238.065.007.096.007.03 0 .089-.007.265.25.454.395l.022.007q.012 0 .273-.247.008-.01.002-.025-.038-.088-.368-.487.017-.081.012-.184.435-.053.41-.11z" fill="#f4b934"></path>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="d340692f-4772-4aa5-bde7-e22b1eb7cacb" transform="translate(0 0)">
+          <svg x="-832" y="454" height="137.556" width="128" viewBox="0 0 33.867 36.395">
+            <g fill="#4286c5" font-family="sans-serif" font-size="3.175" stroke-width=".265" style="line-height: 0%;">
+              <path d="M.187 12.17v14.365l16.587 9.576-.002-14.363-4.146-7.183-8.292-4.788z" fill="#d2d2d4"></path>
+              <path d="m20.956 14.565 8.292-4.788 4.145 2.394.001 14.364-16.587 9.577.001-14.365z" fill="#b8b8bb"></path>
+              <path d="m4.333 9.777 8.292 4.787h8.295l8.292-4.787v-4.79L20.92.202h-8.294L4.334 4.988zm8.524 4.788h8.293l-4.148 7.182z" fill="#ececed"></path>
+              <path d="m4.393 4.806.002 4.789-4.148 2.393zm24.82 4.788-.001-4.788 4.146 7.182z" fill="#d2d2d4"></path>
+              <path d="m208.47 90.288 4.345-4.346 4.346 8.693z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".264" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m199.734 94.678 13.037 13.037h17.383L217.117 94.68l-8.692-4.347h-8.69zm13.085-8.75v-8.69h4.345l13.037 13.037.001 17.382-13.037-13.037zm-13.085 4.405h8.69l4.347-4.346v-8.69l-4.347-4.347h-8.69l-4.346 4.346v8.69z" fill="none" stroke="#83838a" stroke-linejoin="round" stroke-width=".257" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <path d="m212.855 107.631-13.037-13.037-4.346-8.692v-8.69l4.346-4.347h8.69l8.692 4.346 13.038 13.038v17.383z" fill="none" stroke="#000000" stroke-width=".514" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)"></path>
+              <g font-size=".819" stroke-width=".258" style="line-height: 0%;">
+                <path d="M202.697 81.337h.723q1.014 0 1.517-.397.503-.404.503-1.17 0-.772-.425-1.14-.418-.37-1.318-.37h-1zm4.961-1.645q0 1.673-1.049 2.559-1.041.886-2.97.886h-.942v3.685H200.5V76.46h3.31q1.885 0 2.863.816.985.807.985 2.416z" font-family="Open Sans" font-size="14.515" transform="matrix(.95417 .55084 -.95417 .55084 -100.053 -150.003)" style="line-height: 1.25;"></path>
+              </g>
+            </g>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="1d1ee734-2b3c-4034-9886-25feab574708" transform="translate(0 0)">
+          <svg x="-622" y="659" height="108.05" width="123" viewBox="0 0 32.544 28.588">
+            <path d="M22.429 6.02v14.217l-7.873-4.317V1.474z" fill="#232323" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".268"></path>
+            <path d="m32.279 2.228-9.85 3.791v14.218l9.85-8.53z" fill="#090909" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m22.429 6.02-7.873-4.546L28.996.332l3.283 1.896z" fill="#3c3c3c" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".265"></path>
+            <path d="m32.279 11.707-9.85 8.53-7.873-4.317V1.474L29.152.27l3.127 1.806z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="m10.115 3.65 8.208 4.74L3.496 18.787.265 16.921z" fill="#3c3c3c" fill-rule="evenodd" stroke="#000" stroke-width=".268"></path>
+            <path d="M18.324 8.39v14.219L3.547 28.296l-.051-9.51z" fill="#090909" fill-rule="evenodd" stroke="#000" stroke-width=".265"></path>
+            <path d="M3.496 18.787.265 16.921v9.478l3.282 1.897z" fill="#232323" fill-rule="evenodd" stroke="#000" stroke-width=".265"></path>
+            <path d="m10.115 3.65 8.208 4.74v14.218L3.547 28.296.265 26.399v-9.478z" fill="none" stroke="#000000" stroke-width=".529"></path>
+            <path d="M27.19 10.279q0 .314-.192.646-.192.333-.464.49-.272.157-.464.046t-.192-.425q0-.313.192-.646t.464-.49q.272-.157.464-.046t.192.425zm1.968-2.652q0 .154-.097.323-.098.169-.23.246-.134.077-.232.02-.097-.056-.097-.21 0-.157.096-.323.096-.167.232-.245.136-.078.232-.023.096.056.096.212zm0 3.03q0 .155-.097.323-.098.169-.23.246-.134.077-.232.02-.097-.056-.097-.21 0-.156.096-.323.096-.166.232-.245.136-.078.232-.023.096.056.096.213zm-.984-.677v-.548q0-.03-.018-.047-.018-.018-.04-.007l-.398.158q-.028-.087-.082-.177.087-.192.23-.474.018-.04.018-.07 0-.035-.018-.045-.059-.055-.21-.143-.153-.088-.202-.06-.028.017-.054.052l-.295.437q-.095-.003-.197.022-.028-.304-.059-.425-.018-.06-.077-.027l-.477.276q-.028.016-.05.051-.024.036-.026.067l-.06.487q-.087.08-.192.203l-.302-.09q-.018-.01-.051.01-.028.016-.054.055-.369.606-.369.686 0 .027.018.046.026.027.105.096.08.07.12.111-.059.164-.09.294l-.389.296q-.025.018-.043.054-.018.035-.018.068v.547q0 .03.018.048.018.017.04.007l.398-.159q.028.088.082.178-.087.192-.23.473-.019.043-.019.07 0 .035.018.049.057.056.21.142.154.085.203.057.028-.016.054-.051l.294-.437q.087.003.198-.019.028.304.059.422.018.06.077.027l.476-.276q.028-.016.051-.051.023-.036.026-.067l.06-.487q.086-.08.191-.203l.303.09q.02.008.05-.01.029-.016.055-.055.369-.606.369-.686 0-.027-.018-.046-.031-.03-.108-.098t-.115-.11q.059-.176.087-.293l.39-.293q.025-.021.043-.057.018-.035.018-.068zm1.64-2.524v-.414q0-.048-.382.128-.03-.062-.077-.11.131-.41.131-.483 0-.012-.01-.015-.313-.03-.318-.027-.02.012-.118.207-.097.195-.133.278-.051.024-.077.039-.025.015-.077.05-.036-.041-.133-.124-.098-.083-.118-.071-.005.003-.318.393-.01.016-.01.027 0 .074.131.333-.046.1-.077.198-.382.265-.382.313v.414q0 .047.382-.129.033.067.077.11-.13.41-.13.484 0 .011.01.015l.09.007.15.013q.072.006.077.003.02-.012.118-.206.097-.194.133-.277.052-.023.077-.038.026-.015.077-.05.131.134.236.195l.015-.003q.01-.006.318-.39.01-.016.01-.027 0-.074-.13-.333.043-.093.077-.199.381-.264.381-.312zm0 3.03v-.414q0-.048-.382.128-.03-.062-.077-.11.131-.41.131-.483 0-.012-.01-.015-.313-.03-.318-.027-.02.012-.118.207-.097.195-.133.278-.051.024-.077.039-.025.015-.077.05-.036-.041-.133-.124-.098-.083-.118-.07-.005.002-.318.393-.01.015-.01.026 0 .074.131.333-.046.1-.077.199-.382.264-.382.312v.414q0 .048.382-.129.033.067.077.11-.13.41-.13.484 0 .011.01.015l.09.007.15.013q.072.006.077.003.02-.012.118-.205.097-.194.133-.277.052-.024.077-.039.026-.015.077-.05.131.135.236.195l.015-.003q.01-.006.318-.39.01-.015.01-.027 0-.074-.13-.333.043-.093.077-.198.381-.265.381-.312z" fill="#f4b934"></path>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="723da9c1-b52a-4c62-83fa-b8f816bee67e" transform="translate(0 0)">
+          <svg x="-232" y="867" height="95.068" width="63" viewBox="0 0 16.669 25.153">
+            <path d="M16.668 22.903q0 1.64-.864 2.09-.865.452-2.296-.375L3.161 18.645q-1.432-.828-2.296-2.276Q.001 14.92 0 13.279q0-.724.042-1.39.042-.667.166-1.394.124-.728.313-1.303.19-.574.51-1.038.32-.464.733-.684.415-.219 1.013-.146.598.073 1.32.489.106.061.497.58.39.52.881 1.166.492.645 1.28 1.394.787.749 1.58 1.206.793.458 1.58.619.788.16 1.279.082.491-.078.882-.147.39-.068.497-.007.722.417 1.32 1.036.598.618 1.012 1.315.414.697.734 1.53.32.834.509 1.627.19.793.314 1.665.124.871.165 1.585.042.714.042 1.439zM12.88 8.509q0 2.173-1.331 2.942-1.332.77-3.214-.317T5.121 7.74Q3.789 5.434 3.789 3.26q0-2.173 1.332-2.942 1.332-.769 3.214.318 1.882 1.086 3.214 3.393 1.331 2.307 1.331 4.48z" fill="#000" stroke="#000000" stroke-width=".268"></path>
+          </svg>
+        </g>
+      </g>
+    </g>
+    <g pointer-events="auto"></g>
+    <g pointer-events="auto"></g>
+    <g pointer-events="auto">
+      <g opacity="1">
+        <g id="e8cd3d1b-5497-4e6b-8259-190d04b255c0">
+          <svg x="-624" y="435" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_3_PROD</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_3_PROD</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="1ac6ead0-c560-440b-a4f9-b229803e39a5">
+          <svg x="-736" y="426" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA- SBO_DIV_4_PROD</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA- SBO_DIV_4_PROD</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="3adf927b-8fc8-4211-afdb-bb3204e816eb">
+          <svg x="-672" y="537" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_5_PROD</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_5_PROD</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="b4b8bcc5-39c9-4e64-93f0-7dfba7d8847a">
+          <svg x="-608" y="574" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_6_PROD</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_6_PROD</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="a454265f-f4bd-4fa2-b0fb-4744b3e21a4a">
+          <svg x="-416" y="537" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_7_PROD</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_7_PROD</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="7d6897f2-30f7-4139-80d6-5145670453dc">
+          <svg x="-352" y="574" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_8_PROD</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - SBO_DIV_8_PROD</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="3695bd4f-2cd8-4d6d-8b3a-7bf0a1d2f700">
+          <svg x="-16" y="712" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DWH</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DWH</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="1608c6f4-f7d0-4e1f-aa94-a4d73e9d49aa">
+          <svg x="104" y="708" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - ODS</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - ODS</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="703ac70c-3687-4286-9d96-853829ff71eb">
+          <svg x="224" y="722" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">TECNOLOGISTIK</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">TECNOLOGISTIK</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="ca39c18a-a642-455a-b53d-a2a41d710424">
+          <svg x="-240" y="749" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">Panax BI</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">Panax BI</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="e9a0e592-6646-4267-84fe-6e27c5d50cd6">
+          <svg x="-880" y="546" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DWH</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DWH</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="3861df9e-7748-48bd-a6e1-7f9507988a50">
+          <svg x="-528" y="749" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">Power BI</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">Power BI</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="46887d9a-9c90-421c-9705-9b80dd9f4ec6">
+          <svg x="96" y="481" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">GIGAS</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">GIGAS</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="c88739a1-3653-4577-b97c-aaf8e5913db6">
+          <svg x="480" y="370" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">ATIVY</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">ATIVY</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="e44f2d3e-54ec-4b9c-bae4-c033ec6269c3">
+          <svg x="448" y="574" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - DIV_1</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">HANA - DIV_1</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="97e51b4e-705c-425d-bd94-8594e40a5ebf">
+          <svg x="160" y="259" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">NEXUS</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 0.409 -0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">NEXUS</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="1bbf2009-908d-44b1-b564-1dd1402cbdfb">
+          <svg x="-272" y="194" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DIV_3</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DIV_3</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="fa1a6ae9-6495-49bd-afe6-619b440fd3b6">
+          <svg x="-160" y="204" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DIV_2</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - DIV_2</tspan></text>
+          </svg>
+        </g>
+      </g>
+      <g opacity="1">
+        <g id="c9a266bd-b37c-45fc-a526-722c8937cd86">
+          <svg x="-144" y="268" overflow="visible">
+            <text stroke="#ffffff" stroke-width="4" font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - KANANFLEET</tspan></text>
+            <text font-family="Open Sans" y="36.5" font-size="25pt" fill="#000000" font-weight="bold" transform="matrix(0.707 -0.409 0.707 0.409 0 0)" xml:space="preserve"><tspan x="8" dy="0">SQL - KANANFLEET</tspan></text>
+          </svg>
+        </g>
+      </g>
+    </g>
+    <g pointer-events="auto">
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+      <g></g>
+    </g>
+  </g>
+</svg>
