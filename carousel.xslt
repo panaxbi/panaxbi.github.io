@@ -2,7 +2,7 @@
 xmlns="http://www.w3.org/1999/xhtml"
 >
 	<xsl:template match="*[data]">
-		<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+		<div id="myCarousel" class="carousel slide mb-6">
 			<script>
 				<![CDATA[
 			for (let target of document.querySelectorAll(".carousel")) {
@@ -23,6 +23,11 @@ xmlns="http://www.w3.org/1999/xhtml"
 			
 			.carousel-item > img, .carousel-item > svg {
 				position: absolute;
+			}
+			
+			.carousel-caption {
+			    background-color: rgb(3 3 1 / 60%);
+				padding: 1rem;
 			}
 			]]>
 			</style>
@@ -58,9 +63,9 @@ xmlns="http://www.w3.org/1999/xhtml"
 				<div class="carousel-caption text-start">
 					<h1>Inteligencia de Negocios</h1>
 					<p class="opacity-75">Libera el poder de la información.</p>
-					<!--<p>
-						<a class="btn btn-lg btn-primary" href="#">Sign up today</a>
-					</p>-->
+					<p>
+						<a class="btn btn-lg btn-primary" href="https://v4nii9.webwave.dev/">Conoce más</a>
+					</p>
 				</div>
 			</div>
 		</div>
