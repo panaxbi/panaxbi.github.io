@@ -253,220 +253,44 @@
                 </div>
                 <div class="col-md-7 col-lg-8">
                     <h4 class="mb-3">Billing address</h4>
-                    <form class="needs-validation" novalidate onsubmit="requestPayment.call(this)">
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <label for="firstName" class="form-label">First name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                                <div class="invalid-feedback">
-                                    Valid first name is required.
+                    <form id="payment-form" onsubmit="requestPayment.call(this)">
+                        <input type="hidden" name="token_id" id="token_id">
+                        <input type="hidden" name="use_card_points" id="use_card_points" value="false">
+                        <div class="pymnt-itm card active">
+                            <h2>Tarjeta de crédito o débito</h2>
+                            <div class="pymnt-cntnt">
+                                <div class="card-expl">
+                                    <div class="credit"><h4>Tarjetas de crédito</h4></div>
+                                    <div class="debit"><h4>Tarjetas de débito</h4></div>
                                 </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <label for="lastName" class="form-label">Last name</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                                <div class="invalid-feedback">
-                                    Valid last name is required.
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <label for="username" class="form-label">Username</label>
-                                <div class="input-group has-validation">
-                                    <span class="input-group-text">@</span>
-                                    <input type="text" class="form-control" id="username" placeholder="Username" required>
-                                    <div class="invalid-feedback">
-                                        Your username is required.
+                                <div class="sctn-row">
+                                    <div class="sctn-col l">
+                                        <label>Nombre del titular</label><input type="text" placeholder="Como aparece en la tarjeta" autocomplete="off" data-openpay-card="holder_name">
+                                    </div>
+                                    <div class="sctn-col">
+                                        <label>Número de tarjeta</label><input type="text" autocomplete="off" data-openpay-card="card_number">
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-12">
-                                <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
-                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                                <div class="invalid-feedback">
-                                    Please enter a valid email address for shipping updates.
+                                <div class="sctn-row">
+                                    <div class="sctn-col l">
+                                        <label>Fecha de expiración</label>
+                                        <div class="sctn-col half l"><input type="text" placeholder="Mes" data-openpay-card="expiration_month"></div>
+                                        <div class="sctn-col half l"><input type="text" placeholder="Año" data-openpay-card="expiration_year"></div>
+                                    </div>
+                                    <div class="sctn-col cvv">
+                                        <label>Código de seguridad</label>
+                                        <div class="sctn-col half l"><input type="text" placeholder="3 dígitos" autocomplete="off" data-openpay-card="cvv2"></div>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="col-12">
-                                <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="address" data-openpay-card-address="line1" placeholder="1234 Main St" required>
-                                <div class="invalid-feedback">
-                                    Please enter your shipping address.
+                                <div class="openpay">
+                                    <div class="logo">Transacciones realizadas vía:</div>
+                                    <div class="shield">Tus pagos se realizan de forma segura con encriptación de 256 bits</div>
                                 </div>
-                            </div>
-
-                            <div class="col-12">
-                                <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
-                                <input type="text" class="form-control" id="address2" data-openpay-card-address="line2" placeholder="Apartment or suite">
-                            </div>
-
-                            <div class="col-md-5">
-                                <label for="country" class="form-label">Country</label>
-                                <select class="form-select" id="country" data-openpay-card-address="country_code" required>
-                                    <option value="">Choose...</option>
-                                    <option value="MX">México</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Please select a valid country.
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <label for="state" class="form-label">State</label>
-                                <select class="form-select" id="state" data-openpay-card-address="state" required>
-                                    <option value="">Choose...</option>
-                                    <option>Aguascalientes</option>
-                                    <option>Baja California</option>
-                                    <option>Baja California Sur</option>
-                                    <option>Campeche</option>
-                                    <option>Chiapas</option>
-                                    <option>Chihuahua</option>
-                                    <option>Ciudad de México</option>
-                                    <option>Coahuila</option>
-                                    <option>Colima</option>
-                                    <option>Durango</option>
-                                    <option>Estado de México</option>
-                                    <option>Guanajuato</option>
-                                    <option>Guerrero</option>
-                                    <option>Hidalgo</option>
-                                    <option>Jalisco</option>
-                                    <option>Michoacán</option>
-                                    <option>Morelos</option>
-                                    <option>Nayarit</option>
-                                    <option>Nuevo León</option>
-                                    <option>Oaxaca</option>
-                                    <option>Puebla</option>
-                                    <option>Querétaro</option>
-                                    <option>Quintana Roo</option>
-                                    <option>San Luis Potosí</option>
-                                    <option>Sinaloa</option>
-                                    <option>Sonora</option>
-                                    <option>Tabasco</option>
-                                    <option>Tamaulipas</option>
-                                    <option>Tlaxcala</option>
-                                    <option>Veracruz</option>
-                                    <option>Yucatán</option>
-                                    <option>Zacatecas</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Please provide a valid state.
-                                </div>
-                            </div>
-
-                            <div class="col-md-8">
-                                <label for="state" class="form-label">Ciudad</label>
-                                <input type="text" data-openpay-card-address="city" class="form-control" />
-                                <div class="invalid-feedback">
-                                    Please provide a valid city.
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <label for="zip" class="form-label">Zip</label>
-                                <input type="text" class="form-control" id="zip" data-openpay-card-address="postal_code" placeholder="" required>
-                                <div class="invalid-feedback">
-                                    Zip code required.
+                                <div class="sctn-row">
+                                    <a class="button rght" id="pay-button">Pagar</a>
                                 </div>
                             </div>
                         </div>
-
-                        <hr class="my-4">
-
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="same-address">
-                            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="save-info">
-                            <label class="form-check-label" for="save-info">Save this information for next time</label>
-                        </div>
-
-                        <hr class="my-4">
-
-                        <h4 class="mb-3">Payment</h4>
-
-                        <div class="my-3">
-                            <div class="form-check">
-                                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                                <label class="form-check-label" for="credit">Credit card</label>
-                            </div>
-                            <div class="form-check">
-                                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-                                <label class="form-check-label" for="debit">Debit card</label>
-                            </div>
-                            <!--<div class="form-check">
-                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                                <label class="form-check-label" for="paypal">PayPal</label>
-                            </div>-->
-                        </div>
-
-                        <div class="row gy-3">
-                            <div class="col-md-6">
-                                <label for="cc-name" class="form-label">Name on card</label>
-                                <input type="text" required data-openpay-card="holder_name" class="form-control" id="cc-name" placeholder="">
-                                <small class="text-body-secondary">Full name as displayed on card</small>
-                                <div class="invalid-feedback">
-                                    Name on card is required
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <label for="cc-number" class="form-label">Credit card number</label>
-                                <input type="text" data-openpay-card="card_number" class="form-control" id="cc-number" placeholder="" required>
-                                <div class="invalid-feedback">
-                                    Credit card number is required
-                                </div>
-                            </div>
-
-                            <div class="col-md-5">
-                                <label for="cc-expiration" class="form-label" size="4">Expiration</label>
-                                <div class="input-group">
-                                    <select class="form-select" data-openpay-card="expiration_year">
-                                        <option value="24">2024</option>
-                                        <option value="25">2025</option>
-                                        <option value="26">2026</option>
-                                        <option value="28">2028</option>
-                                        <option value="29">2029</option>
-                                        <option value="30">2030</option>
-                                        <option value="31">2031</option>
-                                        <option value="32">2032</option>
-                                        <option value="33">2033</option>
-                                        <option value="34">2034</option>
-                                        <option value="35">2035</option>
-                                    </select>
-                                    <select class="form-select" data-openpay-card="expiration_month">
-                                        <option>01</option>
-                                        <option>02</option>
-                                        <option>03</option>
-                                        <option>04</option>
-                                        <option>05</option>
-                                        <option>06</option>
-                                        <option>07</option>
-                                        <option>08</option>
-                                        <option>09</option>
-                                        <option>10</option>
-                                        <option>11</option>
-                                        <option>12</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <label for="cc-cvv" class="form-label">CVV</label>
-                                <input type="password" class="form-control" id="cc-cvv" data-openpay-card="cvv2" placeholder="" required>
-                                <div class="invalid-feedback">
-                                    Security code required
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr class="my-4">
-
-                        <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
                     </form>
                 </div>
             </div>
