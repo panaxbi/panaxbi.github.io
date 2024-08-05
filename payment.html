@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <script src="assets/js/color-modes.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Uriel G�mez, Panax IT">
+    <meta name="template-author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <link rel="xover-manifest" href="manifest.json?v=20231115_0903">
+    <title>Panax BI - Inteligencia de negocios</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/app.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <script src="js/particles.js" defer></script>
+    <script src="js/app.js" defer></script>
+
+    <!--<script language="JavaScript" src="https://cdn.jsdelivr.net/gh/panaxit/xover@latest/xo.min.js"></script>-->
+    <script language="JavaScript" src="xover/xo.js?v=20240229_0005"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script type="text/javascript" src="https://js.openpay.mx/openpay.v1.min.js" defer></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+            .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+            .bd-mode-toggle .dropdown-menu .active .bi {
+                display: block !important;
+            }
+    </style>
+    <style>
+        :root {
+            --offcanvas-height: 60vh !important;
+        }
+
+        [data-bs-theme=dark] .carousel {
+            --bs-secondary-color: rgba(33, 37, 41, 0.75);
+        }
+
+        .carousel h1, .carousel p {
+            color: white !important;
+        }
+
+        .particles {
+            background-color: transparent !important;
+        }
+
+        .offcanvas-bottom {
+            height: var(--offcanvas-height, var(--bs-offcanvas-height)) !important;
+        }
+
+        .headings img {
+            height: 300px;
+            width: auto;
+            clip-path: circle(130px at center);
+        }
+
+        .headings .row div:has(>img) {
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (min-width: 900px) {
+            .carousel img {
+                transform: translateY(-50px) !important;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .carousel img {
+                transform: translateY(-70px) !important;
+            }
+        }
+
+        @media (min-width: 1100px) {
+            .carousel img {
+                transform: translateY(-90px) !important;
+            }
+        }
+
+        @media (min-width: 1250px) {
+            .carousel img {
+                transform: translateY(-110px) !important;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            .carousel img {
+                transform: translateY(-170px) !important;
+            }
+        }
+    </style>
+
+    <script defer>
+        xover.listener.on('scrollIntoView::.offcanvas', function () {
+            let offcanvas = bootstrap.Offcanvas.getOrCreateInstance(this);
+            offcanvas.show()
+        })
+
+        xover.listener.on('popstate', function () {
+            for (let offcanvas_item of [...window.document.querySelectorAll('.offcanvas.show')].filter(item => `#${item.id}` != location.hash)) {
+                let offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvas_item);
+                offcanvas.hide()
+            }
+        })
+    </script>
+</head>
+<body>
+    <header data-bs-theme="dark" xo-source="./header.html">
+    </header>
+    <main>
+        <form id="processCard" name="processCard">
+            <p>Holder Name:</p><input data-openpay-card="holder_name" size="50" type="text">
+            <p>Card number:</p><input data-openpay-card="card_number" size="50" type="text">
+            <p>Expiration year:</p><input data-openpay-card="expiration_year" size="4" type="text">
+            <p>Expiration month:</p><input data-openpay-card="expiration_month" size="4" type="text">
+            <p>cvv2:</p><input data-openpay-card="cvv2" size="5" type="text">
+            <p>Street:</p><input data-openpay-card-address="line1" size="20" type="text">
+            <p>Number:</p><input data-openpay-card-address="line2" size="20" type="text">
+            <p>References:</p><input data-openpay-card-address="line3" size="20" type="text">
+            <p>Postal code:</p><input data-openpay-card-address="postal_code" size="6" type="text">
+            <p>City:</p><input data-openpay-card-address="city" size="20" type="text">
+            <p>State:</p><input data-openpay-card-address="state" size="20" type="text">
+            <p>Country code:</p><input data-openpay-card-address="country_code" size="3" type="text">
+            <input id="makeRequestCard" type="button" value="Make Card">
+        </form>
+        <div id="resultDetail"></div>
+    </main>
+    <script>
+        function SuccessCallback(response) {
+            alert('Operaci�n exitosa');
+            let content = ''
+            let results = document.getElementById('resultDetail');
+            content += 'Id tarjeta: ' + response.data.id + '<br/>';
+            content += 'A nombre de: ' + response.data.card.holder_name + '<br/>';
+            content += 'Marca de tarjeta usada: ' + response.data.card.brand + '<br/>';
+            results.innerHTML = content;
+        }
+
+        function ErrorCallback(response) {
+            alert('Fallo en la transacci�n');
+            let content = ''
+            let results = document.getElementById('resultDetail');
+            content += 'Estatus del error: ' + response.status + '<br/>';
+            content += 'Error: ' + response.message + '<br/>';
+            content += 'Descripci�n: ' + response.data.description + '<br/>';
+            content += 'ID de la petici�n: ' + response.data.request_id + '<br/>';
+            results.innerHTML = content;
+        }
+
+        addEventListener("DOMContentLoaded", (event) => {
+            //var deviceSessionId = OpenPay.deviceData.setup("processCard", "deviceIdHiddenFieldName");
+            OpenPay.setId('murdz6gpsskxyma0bcrw');
+            OpenPay.setApiKey('pk_d3ac6afe3bde443c9505a894c34511ba');
+            OpenPay.setSandboxMode(true);
+            OpenPay.token.create({
+                "card_number": "4111111111111111",
+                "holder_name": "Juan Perez Ramirez",
+                "expiration_year": "24",
+                "expiration_month": "12",
+                "cvv2": "110",
+                "address": {
+                    "city": "Quer�taro",
+                    "line3": "Queretaro",
+                    "postal_code": "76900",
+                    "line1": "Av 5 de Febrero",
+                    "line2": "Roble 207",
+                    "state": "Queretaro",
+                    "country_code": "MX"
+                }
+            }, SuccessCallback, ErrorCallback);
+        });
+    </script>
+</body>
